@@ -23,7 +23,7 @@ export default function About() {
               AI agents are the next major paradigm shift in computing. We bring them to life.
             </p>
             <p>
-              We've personally built and reviewed hundreds of AI agents. Agency helps clients prototype and productionize ambitious agent-based applications.
+            Johaar is committed to revolutionizing sectors such as agriculture, healthcare, education, and infrastructure in Chhattisgarh through cutting-edge AI solutions. Our mission is to empower local communities and businesses by providing accessible and effective AI-driven tools.
             </p>
             <motion.a
               href="#"

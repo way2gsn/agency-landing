@@ -2,14 +2,20 @@
 
 import { FadeIn } from './ui/fade-in'
 
+// : ""
+
+// Educational AI Tools: "Personalizing learning experiences for students and educators."
+
+// Infrastructure AI Management: "Optimizing urban planning and development projects."
+
 const features = [
   {
-    title: "Agent Dev Tools",
-    description: "AgentOps is the industry leading agent observability platform.",
+    title: "Agricultural AI Solutions",
+    description: "Enhancing crop yields and optimizing resource management for farmers.",
   },
   {
-    title: "Vetted AI Agents",
-    description: "Browse 400+ AI agents working in production.",
+    title: "Healthcare AI Innovations",
+    description: "Improving patient care and streamlining medical processes.",
   },
   {
     title: "Agent Expertise",

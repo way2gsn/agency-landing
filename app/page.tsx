@@ -14,7 +14,7 @@ export default function Home() {
         <Hero />
         <Features />
         <About />
-        <TrustedBy />
+        {/* <TrustedBy /> */}
         <CTA />
       </main>
       <Footer />

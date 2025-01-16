@@ -30,8 +30,7 @@ export default function CTA() {
             
             <FadeIn delay={0.2}>
               <p className="text-gray-400 mb-8 max-w-2xl">
-                From open source AI agent developer tools like AgentOps to Fortune 500 enterprises, 
-                we help clients create safe, reliable, and scalable AI agents.
+              Join us in transforming Chhattisgarh's future with AI. Contact us to learn how our solutions can benefit your sector.
               </p>
             </FadeIn>
             
