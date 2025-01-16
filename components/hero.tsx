@@ -14,7 +14,7 @@ export default function Hero() {
           transition={{ duration: 0.5 }}
           className="inline-flex items-center rounded-full border border-emerald-400/20 bg-emerald-400/10 px-3 py-1 text-sm text-emerald-400 mb-8"
         >
-          Want to invest →
+          <a href='/contact'>Want to invest → </a>
         </motion.div>
         
         <FadeIn delay={0.2}>

@@ -14,13 +14,13 @@ export default function Navbar() {
     >
       <div className="mx-auto max-w-7xl px-6 h-16 flex items-center justify-between">
         <Link href="/" className="text-emerald-400">
-          <motion.div whileHover={{ scale: 1.1 }}>
+          <motion.div whileHover={{ scale: 1.1 }} className='overflow-hidden'>
             <Image
               src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Johaar.PNG-cg80ndbexYEoS8DzK62FVkZEkVTDvi.png"
               alt="Johaar Logo"
               width={140}
               height={45}
-              className="h-14 w-auto"
+              className="h-[7rem] w-[7rem] "
             />
           </motion.div>
         </Link>
