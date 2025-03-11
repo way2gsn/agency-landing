@@ -26,7 +26,8 @@ export default function Navbar() {
         </Link>
         <div className="flex items-center space-x-8">
           <NavLink href="/agents">Agents</NavLink>
-          <NavLink href="/blog">Blog</NavLink>
+          <NavLink href="/services">Services</NavLink>
+
           <NavLink href="/contact">Contact Us</NavLink>
         </div>
       </div>
