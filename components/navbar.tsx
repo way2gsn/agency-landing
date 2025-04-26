@@ -25,6 +25,7 @@ export default function Navbar() {
           </motion.div>
         </Link>
         <div className="flex items-center space-x-8">
+          <NavLink href="/products">Products</NavLink>
           <NavLink href="/agents">Agents</NavLink>
           <NavLink href="/services">Services</NavLink>
 

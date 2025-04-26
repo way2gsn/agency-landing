@@ -3,8 +3,8 @@ import { GeistSans } from 'geist/font/sans'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Agency - AI Development Platform',
-  description: 'From the team behind AgentOps, Agency helps teams create reliable AI agents at scale.',
+  title: 'Johaar.life: Your Trusted Partner for Professional Content and IT Excellence',
+  description: 'Driving Digital Transformation Through Creative Content & Smart IT Solutions',
 }
 
 export default function RootLayout({

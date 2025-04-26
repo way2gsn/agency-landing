@@ -4,7 +4,9 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
-import { Check, Camera, Video, Film, Smartphone, Palette, Globe } from "lucide-react"
+import { Check, Camera, Video, Film, Smartphone, Palette, Globe, Link } from "lucide-react"
+import Navbar from "@/components/navbar"
+import Footer from "@/components/footer"
 
 // Custom utility class for hiding scrollbars while allowing scrolling
 const scrollbarHideStyle = `
@@ -19,11 +21,14 @@ const scrollbarHideStyle = `
 
 export default function PricingPage() {
   return (
+     <div className="min-h-screen bg-[#0A0B0F] text-white">
+          <Navbar  />
     <>
+    
       <style jsx global>
         {scrollbarHideStyle}
       </style>
-      <div className="container mx-auto px-4 py-12 max-w-7xl">
+      <div className="container mx-auto px-4 py-12 max-w-7xl mt-10">
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold tracking-tight mb-4">Filmmaking & Creative Services</h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
@@ -348,12 +353,16 @@ export default function PricingPage() {
           <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
             Contact us today to discuss your project requirements and get a customized quote.
           </p>
-          <Button size="lg" className="px-8">
+          <Button  size="lg" className="px-8">
+            <a href="/contact" className="inline-block">
             Get in Touch
+            </a>
           </Button>
         </div>
       </div>
     </>
+    <Footer />
+    </div>
   )
 }
 
